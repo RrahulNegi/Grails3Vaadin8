@@ -1,6 +1,6 @@
 package hello.world
 
-class UrlMappings {
+/*class UrlMappings {
 
     static mappings = {
         "/$controller/$action?/$id?(.$format)?"{
@@ -12,5 +12,10 @@ class UrlMappings {
         "/"(view:"/index")
         "500"(view:'/error')
         "404"(view:'/notFound')
+    }
+}*/
+class UrlMappings {
+
+    static mappings = {
     }
 }
